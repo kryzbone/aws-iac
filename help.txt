@@ -1,0 +1,9 @@
+# Network Stack
+.\create.bat ProjTwoNetworkStack project-2-cfn.yml parameters.json
+
+.\update.bat ProjTwoNetworkStack project-2-cfn.yml parameters.json
+
+# Server Stack
+.\create.bat ProjTwoServerStack servers.yml server-parameters.json
+
+.\update.bat ProjTwoServerStack servers.yml server-parameters.json
